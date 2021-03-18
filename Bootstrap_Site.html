@@ -6,256 +6,262 @@
     <title>Bootstrap</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("thunderstorm-3625405_1920.jpg");
+        }
+    </style>
 </head>
 
-<body>
-    <div class="d-flex align-items-center flex-column">
-        <div class=" d-flex align-items-center flex-column">
-            <h3>Källa: SMHI</h3>
-            <p class="lead">Orsaker till saknade data: stationen eller givaren har varit ur funktion</p>
-            <p class="lead">Kvalitetskoderna: <br>
-                Grön (G) = Kontrollerade och godkända värden. <br>
-                Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim). </p>
-            <p class="lead"> Stationsnamn: Landvetter Flygplats</p>
-            <p class="lead">Klimatnummer: 72420 </p>
-            <p class="lead"> Mäthöj (meter över marken): 2.0</p>
-        </div>
-        <div>
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th>Från Datum Tid (UTC)</th>
-                        <th>Till Datum Tid (UTC)</th>
-                        <th>Representativt dygn</th>
-                        <th>Lufttemperatur</th>
-                        <th>Kvalitet</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="table-success">
-                        <td>2021-01-01 00:00:01</td>
-                        <td>2021-01-02 00:00:00</td>
-                        <td>2021-01-01</td>
-                        <td>0.7</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-02 00:00:01</td>
-                        <td>2021-01-03 00:00:00</td>
-                        <td>2021-01-02</td>
-                        <td>-0.4</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-03 00:00:01</td>
-                        <td>2021-01-04 00:00:00</td>
-                        <td>2021-01-03</td>
-                        <td>-0.6</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-04 00:00:01</td>
-                        <td>2021-01-05 00:00:00</td>
-                        <td>2021-01-04</td>
-                        <td>-1.8</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-05 00:00:01</td>
-                        <td>2021-01-06 00:00:00</td>
-                        <td>2021-01-05</td>
-                        <td>-1.1</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-06 00:00:01</td>
-                        <td>2021-01-07 00:00:00</td>
-                        <td>2021-01-06</td>
-                        <td>-3.0</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-07 00:00:01</td>
-                        <td>2021-01-08 00:00:00</td>
-                        <td>2021-01-07</td>
-                        <td>-2.6</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-08 00:00:01</td>
-                        <td>2021-01-09 00:00:00</td>
-                        <td>2021-01-08</td>
-                        <td>-1.7</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-09 00:00:01</td>
-                        <td>2021-01-10 00:00:00</td>
-                        <td>2021-01-09</td>
-                        <td>-3.2</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-10 00:00:01</td>
-                        <td>2021-01-11 00:00:00</td>
-                        <td>2021-01-10</td>
-                        <td>-0.9</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-success">
-                        <td>2021-01-11 00:00:01</td>
-                        <td>2021-01-12 00:00:00</td>
-                        <td>2021-01-11</td>
-                        <td>1.6</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-12 00:00:01</td>
-                        <td>2021-01-13 00:00:00</td>
-                        <td>2021-01-12</td>
-                        <td>-3.3</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-13 00:00:01</td>
-                        <td>2021-01-14 00:00:00</td>
-                        <td>2021-01-13</td>
-                        <td>-2.6</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-14 00:00:01</td>
-                        <td>2021-01-15 00:00:00</td>
-                        <td>2021-01-14</td>
-                        <td>-4.3</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-15 00:00:01</td>
-                        <td>2021-01-16 00:00:00</td>
-                        <td>2021-01-15</td>
-                        <td>-7.8</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-16 00:00:01</td>
-                        <td>2021-01-17 00:00:00</td>
-                        <td>2021-01-16</td>
-                        <td>-8.5</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-17 00:00:01</td>
-                        <td>2021-01-18 00:00:00</td>
-                        <td>2021-01-17</td>
-                        <td>-4.3</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-18 00:00:01</td>
-                        <td>2021-01-19 00:00:00</td>
-                        <td>2021-01-18</td>
-                        <td>-2.3</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-19 00:00:01</td>
-                        <td>2021-01-20 00:00:00</td>
-                        <td>2021-01-19</td>
-                        <td>-0.2</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-success">
-                        <td>2021-01-20 00:00:01</td>
-                        <td>2021-01-21 00:00:00</td>
-                        <td>2021-01-20</td>
-                        <td>1.7</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-warning">
-                        <td>2021-01-21 00:00:01</td>
-                        <td>2021-01-22 00:00:00</td>
-                        <td>2021-01-21</td>
-                        <td>3.9</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-success">
-                        <td>2021-01-22 00:00:01</td>
-                        <td>2021-01-23 00:00:00</td>
-                        <td>2021-01-22</td>
-                        <td>1.9</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-success">
-                        <td>2021-01-23 00:00:01</td>
-                        <td>2021-01-24 00:00:00</td>
-                        <td>2021-01-23</td>
-                        <td>1.6</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-24 00:00:01</td>
-                        <td>2021-01-25 00:00:00</td>
-                        <td>2021-01-24</td>
-                        <td>-0.3</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-25 00:00:01</td>
-                        <td>2021-01-26 00:00:00</td>
-                        <td>2021-01-25</td>
-                        <td>-0.9</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-26 00:00:01</td>
-                        <td>2021-01-27 00:00:00</td>
-                        <td>2021-01-26</td>
-                        <td>-4.2</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-info">
-                        <td>2021-01-27 00:00:01</td>
-                        <td>2021-01-28 00:00:00</td>
-                        <td>2021-01-27</td>
-                        <td>-2.3</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-28 00:00:01</td>
-                        <td>2021-01-29 00:00:00</td>
-                        <td>2021-01-28</td>
-                        <td>-4.9</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-29 00:00:01</td>
-                        <td>2021-01-30 00:00:00</td>
-                        <td>2021-01-29</td>
-                        <td>-6.2</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-30 00:00:01</td>
-                        <td>2021-01-31 00:00:00</td>
-                        <td>2021-01-30</td>
-                        <td>-5.6</td>
-                        <td>Y</td>
-                    </tr>
-                    <tr class="table-primary">
-                        <td>2021-01-31 00:00:01</td>
-                        <td>2021-02-01 00:00:00</td>
-                        <td>2021-01-31</td>
-                        <td>-5.7</td>
-                        <td>Y</td>
-                    </tr>
+<body class="d-flex align-items-center justify-content-around">
+    <div class="p-3 mb-2 bg-light text-dark">
+        <div class="d-flex align-items-center flex-column">
+            <div class=" d-flex align-items-center flex-column">
+               <p class="lead">Bakgrundsbild av <a href="https://pixabay.com/sv/users/felixmittermeier-4397258/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3625405">FelixMittermeier</a> från <a href="https://pixabay.com/sv/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3625405">Pixabay</a> med rätt att använda för kommersiellt bruk </p>
+                <p class="lead"> Stationsnamn: Landvetter Flygplats</p>
+                <p class="lead">Klimatnummer: 72420 </p>
+                <p class="lead"> Mäthöj (meter över marken): 2.0</p>
+                <p class="lead"> Källa: SMHI</p>
+                <p class="lead">Orsaker till saknade data: stationen eller givaren har varit ur funktion</p>
+                <p class="lead">Kvalitetskoderna: <br>
+                    Grön (G) = Kontrollerade och godkända värden. <br>
+                    Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim). </p>
+            </div>
+            <div>
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Från Datum Tid (UTC)</th>
+                            <th>Till Datum Tid (UTC)</th>
+                            <th>Representativt dygn</th>
+                            <th>Lufttemperatur</th>
+                            <th>Kvalitet</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-success">
+                            <td>2021-01-01 00:00:01</td>
+                            <td>2021-01-02 00:00:00</td>
+                            <td>2021-01-01</td>
+                            <td>0.7</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-02 00:00:01</td>
+                            <td>2021-01-03 00:00:00</td>
+                            <td>2021-01-02</td>
+                            <td>-0.4</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-03 00:00:01</td>
+                            <td>2021-01-04 00:00:00</td>
+                            <td>2021-01-03</td>
+                            <td>-0.6</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-04 00:00:01</td>
+                            <td>2021-01-05 00:00:00</td>
+                            <td>2021-01-04</td>
+                            <td>-1.8</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-05 00:00:01</td>
+                            <td>2021-01-06 00:00:00</td>
+                            <td>2021-01-05</td>
+                            <td>-1.1</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-06 00:00:01</td>
+                            <td>2021-01-07 00:00:00</td>
+                            <td>2021-01-06</td>
+                            <td>-3.0</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-07 00:00:01</td>
+                            <td>2021-01-08 00:00:00</td>
+                            <td>2021-01-07</td>
+                            <td>-2.6</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-08 00:00:01</td>
+                            <td>2021-01-09 00:00:00</td>
+                            <td>2021-01-08</td>
+                            <td>-1.7</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-09 00:00:01</td>
+                            <td>2021-01-10 00:00:00</td>
+                            <td>2021-01-09</td>
+                            <td>-3.2</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-10 00:00:01</td>
+                            <td>2021-01-11 00:00:00</td>
+                            <td>2021-01-10</td>
+                            <td>-0.9</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>2021-01-11 00:00:01</td>
+                            <td>2021-01-12 00:00:00</td>
+                            <td>2021-01-11</td>
+                            <td>1.6</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-12 00:00:01</td>
+                            <td>2021-01-13 00:00:00</td>
+                            <td>2021-01-12</td>
+                            <td>-3.3</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-13 00:00:01</td>
+                            <td>2021-01-14 00:00:00</td>
+                            <td>2021-01-13</td>
+                            <td>-2.6</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-14 00:00:01</td>
+                            <td>2021-01-15 00:00:00</td>
+                            <td>2021-01-14</td>
+                            <td>-4.3</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-15 00:00:01</td>
+                            <td>2021-01-16 00:00:00</td>
+                            <td>2021-01-15</td>
+                            <td>-7.8</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-16 00:00:01</td>
+                            <td>2021-01-17 00:00:00</td>
+                            <td>2021-01-16</td>
+                            <td>-8.5</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-17 00:00:01</td>
+                            <td>2021-01-18 00:00:00</td>
+                            <td>2021-01-17</td>
+                            <td>-4.3</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-18 00:00:01</td>
+                            <td>2021-01-19 00:00:00</td>
+                            <td>2021-01-18</td>
+                            <td>-2.3</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-19 00:00:01</td>
+                            <td>2021-01-20 00:00:00</td>
+                            <td>2021-01-19</td>
+                            <td>-0.2</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>2021-01-20 00:00:01</td>
+                            <td>2021-01-21 00:00:00</td>
+                            <td>2021-01-20</td>
+                            <td>1.7</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>2021-01-21 00:00:01</td>
+                            <td>2021-01-22 00:00:00</td>
+                            <td>2021-01-21</td>
+                            <td>3.9</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>2021-01-22 00:00:01</td>
+                            <td>2021-01-23 00:00:00</td>
+                            <td>2021-01-22</td>
+                            <td>1.9</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>2021-01-23 00:00:01</td>
+                            <td>2021-01-24 00:00:00</td>
+                            <td>2021-01-23</td>
+                            <td>1.6</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-24 00:00:01</td>
+                            <td>2021-01-25 00:00:00</td>
+                            <td>2021-01-24</td>
+                            <td>-0.3</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-25 00:00:01</td>
+                            <td>2021-01-26 00:00:00</td>
+                            <td>2021-01-25</td>
+                            <td>-0.9</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-26 00:00:01</td>
+                            <td>2021-01-27 00:00:00</td>
+                            <td>2021-01-26</td>
+                            <td>-4.2</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>2021-01-27 00:00:01</td>
+                            <td>2021-01-28 00:00:00</td>
+                            <td>2021-01-27</td>
+                            <td>-2.3</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-28 00:00:01</td>
+                            <td>2021-01-29 00:00:00</td>
+                            <td>2021-01-28</td>
+                            <td>-4.9</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-29 00:00:01</td>
+                            <td>2021-01-30 00:00:00</td>
+                            <td>2021-01-29</td>
+                            <td>-6.2</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-30 00:00:01</td>
+                            <td>2021-01-31 00:00:00</td>
+                            <td>2021-01-30</td>
+                            <td>-5.6</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>2021-01-31 00:00:01</td>
+                            <td>2021-02-01 00:00:00</td>
+                            <td>2021-01-31</td>
+                            <td>-5.7</td>
+                            <td>Y</td>
+                        </tr>
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-
-
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
