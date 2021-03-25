@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
@@ -29,11 +29,11 @@
     </div>
     <div class="dropdown">
         <button type="button" class="btn btn-dark dropdown-toggle hover_ani" data-toggle="dropdown">
-            Välj data
+            Toggle data
         </button>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="#" onclick="toggler('tabell_1');">Landvetter januari</a>
-            <a class="dropdown-item" href="#" onclick="toggler('tabell_2');">Kiruna januari</a>
+            <a id="data" class="dropdown-item text-dark" href="#" onclick="toggler('tabell_1');">Landvetter januari</a>
+            <a id="data2" class="dropdown-item  text-dark" href="#" onclick="toggler('tabell_2');">Kiruna januari</a>
         </div>
     </div>
     <div id="tabell_1" class="p-3 mb-2 bg-light text-dark border border-dark">
@@ -535,8 +535,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
         function toggler(divId) {
-            $("#" + divId).toggle();
+            $("#" + divId).toggle(1000);
         }
+        $("#data").click(function() {
+            $(this).toggleClass('bg-danger');
+        });
+        $("#data2").click(function() {
+            $(this).toggleClass('bg-danger');
+        });
     </script>
 </body>
 
