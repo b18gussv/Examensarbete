@@ -1,0 +1,219 @@
+[
+  {
+    "Från Datum Tid (UTC)": "2021-01-01 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-02 00:00:00",
+    "Representativt dygn": "2021-01-01",
+    "Lufttemperatur": -5,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-02 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-03 00:00:00",
+    "Representativt dygn": "2021-01-02",
+    "Lufttemperatur": -8.9,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-03 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-04 00:00:00",
+    "Representativt dygn": "2021-01-03",
+    "Lufttemperatur": -11.7,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-04 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-05 00:00:00",
+    "Representativt dygn": "2021-01-04",
+    "Lufttemperatur": -9.6,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-05 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-06 00:00:00",
+    "Representativt dygn": "2021-01-05",
+    "Lufttemperatur": -10,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-06 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-07 00:00:00",
+    "Representativt dygn": "2021-01-06",
+    "Lufttemperatur": -12.4,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-07 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-08 00:00:00",
+    "Representativt dygn": "2021-01-07",
+    "Lufttemperatur": -16.6,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-08 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-09 00:00:00",
+    "Representativt dygn": "2021-01-08",
+    "Lufttemperatur": -13.8,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-09 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-10 00:00:00",
+    "Representativt dygn": "2021-01-09",
+    "Lufttemperatur": -14.1,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-10 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-11 00:00:00",
+    "Representativt dygn": "2021-01-10",
+    "Lufttemperatur": -10.6,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-11 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-12 00:00:00",
+    "Representativt dygn": "2021-01-11",
+    "Lufttemperatur": -18,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-12 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-13 00:00:00",
+    "Representativt dygn": "2021-01-12",
+    "Lufttemperatur": -15.5,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-13 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-14 00:00:00",
+    "Representativt dygn": "2021-01-13",
+    "Lufttemperatur": -21.4,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-14 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-15 00:00:00",
+    "Representativt dygn": "2021-01-14",
+    "Lufttemperatur": -15.8,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-15 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-16 00:00:00",
+    "Representativt dygn": "2021-01-15",
+    "Lufttemperatur": -1.9,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-16 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-17 00:00:00",
+    "Representativt dygn": "2021-01-16",
+    "Lufttemperatur": -8.7,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-17 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-18 00:00:00",
+    "Representativt dygn": "2021-01-17",
+    "Lufttemperatur": -12.1,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-18 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-19 00:00:00",
+    "Representativt dygn": "2021-01-18",
+    "Lufttemperatur": -16.6,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-19 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-20 00:00:00",
+    "Representativt dygn": "2021-01-19",
+    "Lufttemperatur": -10.6,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-20 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-21 00:00:00",
+    "Representativt dygn": "2021-01-20",
+    "Lufttemperatur": -13.8,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-21 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-22 00:00:00",
+    "Representativt dygn": "2021-01-21",
+    "Lufttemperatur": -15.7,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-22 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-23 00:00:00",
+    "Representativt dygn": "2021-01-22",
+    "Lufttemperatur": -14.9,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-23 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-24 00:00:00",
+    "Representativt dygn": "2021-01-23",
+    "Lufttemperatur": -16.4,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-24 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-25 00:00:00",
+    "Representativt dygn": "2021-01-24",
+    "Lufttemperatur": -17.7,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-25 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-26 00:00:00",
+    "Representativt dygn": "2021-01-25",
+    "Lufttemperatur": -23.9,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-26 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-27 00:00:00",
+    "Representativt dygn": "2021-01-26",
+    "Lufttemperatur": -16.3,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-27 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-28 00:00:00",
+    "Representativt dygn": "2021-01-27",
+    "Lufttemperatur": -11.3,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-28 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-29 00:00:00",
+    "Representativt dygn": "2021-01-28",
+    "Lufttemperatur": -11.5,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-29 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-30 00:00:00",
+    "Representativt dygn": "2021-01-29",
+    "Lufttemperatur": -18.5,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-30 00:00:01",
+    "Till Datum Tid (UTC)": "2021-01-31 00:00:00",
+    "Representativt dygn": "2021-01-30",
+    "Lufttemperatur": -13.8,
+    "Kvalitet": "Y"
+  },
+  {
+    "Från Datum Tid (UTC)": "2021-01-31 00:00:01",
+    "Till Datum Tid (UTC)": "2021-02-01 00:00:00",
+    "Representativt dygn": "2021-01-31",
+    "Lufttemperatur": -8.6,
+    "Kvalitet": "Y"
+  }
+]
