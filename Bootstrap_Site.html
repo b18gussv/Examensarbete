@@ -21,6 +21,27 @@
 </head>
 
 <body class="d-flex align-items-center justify-content-around flex-column bg-info">
+    <nav class="navbar w-100 bg-dark navbar-dark justify-content-start">
+        <a class="navbar-brand" href="#">Logo</a>
+        <div class="dropdown">
+            <button type="button" class="btn btn-dark dropdown-toggle hover_ani" data-toggle="dropdown">
+                Toggle data
+            </button>
+            <div class="dropdown-menu">
+                <a id="data" class="dropdown-item text-dark" href="#" onclick="toggler('tabell_1');">Landvetter januari</a>
+                <a id="data2" class="dropdown-item  text-dark" href="#" onclick="toggler('tabell_2');">Kiruna januari</a>
+            </div>
+        </div>
+        <button type="button" class="btn btn-dark dropdown-toggle hover_ani">
+            Nav 2
+        </button>
+        <button type="button" class="btn btn-dark dropdown-toggle hover_ani">
+            Nav 3
+        </button>
+        <button type="button" class="btn btn-dark dropdown-toggle hover_ani">
+            Nav 4
+        </button>
+    </nav>
     <div class="jumbotron jumbotron-fluid w-100 border border-dark">
         <div class="container">
             <h1>Visualisering av väderdata</h1>
@@ -28,13 +49,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button type="button" class="btn btn-dark dropdown-toggle hover_ani" data-toggle="dropdown">
-            Toggle data
-        </button>
-        <div class="dropdown-menu">
-            <a id="data" class="dropdown-item text-dark" href="#" onclick="toggler('tabell_1');">Landvetter januari</a>
-            <a id="data2" class="dropdown-item  text-dark" href="#" onclick="toggler('tabell_2');">Kiruna januari</a>
-        </div>
+
     </div>
     <div id="tabell_1" class="p-3 mb-2 bg-light text-dark border border-dark">
         <div class="d-flex align-items-center flex-column">
