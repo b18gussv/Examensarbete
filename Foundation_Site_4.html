@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Foundation</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\css\foundation.css" > 
+    <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\css\foundation.css">
     <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\motion-ui-starter\css\motion-ui.css" />
 
     <style>
@@ -18,130 +18,42 @@
         * {
             box-sizing: border-box
         }
-
-        .slideshow-container {
-            max-width: 1000px;
-            position: relative;
-            margin: auto;
-        }
-
-        .mySlides {
-            display: none;
-        }
-
-        .prev,
-        .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            margin-top: -22px;
-            padding: 16px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-        }
-
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
-
-        .prev:hover,
-        .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        .text {
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
-
-        .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
-
-        .active,
-        .dot:hover {
-            background-color: #717171;
-        }
-
-        .panel {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: gainsboro;
-            height: 200px;
-            border: 1px solid;
-        }
     </style>
 </head>
 
 <body style="background-color: lightskyblue;">
-    <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="#">Logo</a></h1>
-            </li>
-        </ul>
-        <section class="top-bar-section">
-            <ul class="dropdown menu">
-                <li><a href="#">Nav 1</a></li>
-                <li><a href="#">Nav 2</a></li>
-                <li><a href="#">Nav 3</a></li>
-                <li><a href="#">Nav 4</a></li>
-            </ul>
-        </section>
-    </nav>
     <div class="panel">
         <h1>Visualisering av väderdata</h5>
             <p>Med hjälp av Foundation</p>
     </div>
-    <div class="slideshow-container">
-        <div class="mySlides">
-            <img src="thunderstorm.jpg" style="width:100%">
-            <div class="text">
-                <h5>Thunderstorm av Felix Mittermeier</h5>
-                <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-            </div>
-        </div>
-        <div class="mySlides">
-            <img src="rain_city.jpg" style="width:100%">
-            <div class="text">
-                <h5>Rain av WolfBlur</h5>
-                <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-            </div>
-        </div>
-        <div class="mySlides">
-            <img src="ocean.jpg" style="width:100%">
-            <div class="text">
-                <h5>Ocean av Pexels</h5>
-                <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-            </div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="reveal" id="Modal_1" data-reveal>
+        <h1>Tabellinformation</h1>
+        <p>Tabell med temperaturdata för Landvetter Flygplats januari månad</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
     </div>
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+    <div class="reveal" id="Modal_2" data-reveal>
+        <h1>Tabellinformation</h1>
+        <p>Tabell med temperaturdata för Kiruna Flygplats januari månad</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="reveal" id="Modal_3" data-reveal>
+        <h1>Tabellinformation</h1>
+        <p>Tabell med temperaturdata för Landvetter Flygplats mars månad</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="reveal" id="Modal_4" data-reveal>
+        <h1>Tabellinformation</h1>
+        <p>Tabell med temperaturdata för Kiruna Flygplats mars månad</p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
     </div>
     <div class="grid-x margin-x">
         <div class="cell auto">
@@ -155,6 +67,7 @@
                     Grön (G) = Kontrollerade och godkända värden. <br>
                     Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim). </p>
             </div>
+            <p><button class="button" data-open="Modal_1">Tabellinformation</button></p>
             <div>
                 <table>
                     <thead>
@@ -399,6 +312,7 @@
                     Grön (G) = Kontrollerade och godkända värden. <br>
                     Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim). </p>
             </div>
+            <p><button class="button" data-open="Modal_2">Tabellinformation</button></p>
             <div>
                 <table>
                     <thead>
@@ -645,6 +559,7 @@
                     Grön (G) = Kontrollerade och godkända värden. <br>
                     Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim). </p>
             </div>
+            <p><button class="button" data-open="Modal_3">Tabellinformation</button></p>
             <div>
                 <table>
                     <thead>
@@ -889,6 +804,7 @@
                     Grön (G) = Kontrollerade och godkända värden. <br>
                     Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim). </p>
             </div>
+            <p><button class="button" data-open="Modal_4">Tabellinformation</button></p>
             <div>
                 <table>
                     <thead>
@@ -1127,36 +1043,13 @@
     </div>
     <!-- JavaScript -->
     <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\foundation.js"></script>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.core.js"></script>
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.reveal.js"></script>
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.util.box.js"></script>
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.util.triggers.js"></script>
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.util.mediaQuery.js"></script>
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.util.motion.js"></script>
+    <script src="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\js\plugins\foundation.util.keyboard.js"></script>
+</body>
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
-</body></html>
+</html>

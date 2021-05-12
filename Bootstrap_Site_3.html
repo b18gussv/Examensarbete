@@ -5,95 +5,35 @@
     <meta charset="UTF-8">
     <title>Bootstrap</title>
     <!-- CSS -->
-   <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\bootstrap-4.3.1-dist\css\bootstrap.min.css">
-    <style>
-        .hover_ani::after {
-            display: block;
-            width: 0px;
-            height: 2px;
-            transition: 0.2s;
-        }
+    <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\bootstrap-4.3.1-dist\css\bootstrap.min.css">
 
-        .hover_ani:hover::after {
-            width: 100%;
-        }
-
-        .heightFix img {
-            width: auto;
-            height: 500px;
-            max-height: 500px;
-        }
-    </style>
 </head>
 
 <body class="d-flex align-items-center justify-content-around flex-column bg-info">
-    <nav class="navbar w-100 bg-dark navbar-dark justify-content-start">
-        <a class="navbar-brand" href="#">Logo</a>
-        <div class="dropdown">
-            <button type="button" class="btn btn-dark dropdown-toggle hover_ani" data-toggle="dropdown">
-                Toggle data
-            </button>
-            <div class="dropdown-menu">
-                <a id="data" class="dropdown-item text-dark" href="#" onclick="toggler('tabell_1');">Landvetter januari</a>
-                <a id="data2" class="dropdown-item  text-dark" href="#" onclick="toggler('tabell_2');">Kiruna januari</a>
-                <a id="data3" class="dropdown-item  text-dark" href="#" onclick="toggler('tabell_3');">Landvetter mars</a>
-                <a id="data4" class="dropdown-item  text-dark" href="#" onclick="toggler('tabell_4');">Kiruna mars</a>
-            </div>
-        </div>
-        <button type="button" class="btn btn-dark dropdown-toggle hover_ani">
-            Nav 2
-        </button>
-        <button type="button" class="btn btn-dark dropdown-toggle hover_ani">
-            Nav 3
-        </button>
-        <button type="button" class="btn btn-dark dropdown-toggle hover_ani">
-            Nav 4
-        </button>
-    </nav>
     <div class="jumbotron jumbotron-fluid w-100 border border-dark">
         <div class="container">
             <h1>Visualisering av väderdata</h1>
             <p>Med hjälp av Bootstrap</p>
         </div>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide w-50" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active heightFix">
-                <img class="w-100" src="thunderstorm.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Thunderstorm av Felix Mittermeier</h5>
-                    <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-                </div>
-            </div>
-            <div class="carousel-item heightFix">
-                <img class="w-100" src="rain_city.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Rain av WolfBlur</h5>
-                    <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-                </div>
-            </div>
-            <div class="carousel-item heightFix">
-                <img class="w-100" src="ocean.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Ocean av Pexels</h5>
-                    <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-                </div>
-            </div>
+    <form>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email">
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+        <div class="form-group">
+            <label for="pwd">Lösenord:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="email">Namn:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Kom ihåg den här enheten</label>
+        </div>
+        <button type="submit" class="btn btn-default">Logga in</button>
+    </form>
     <div id="tabell_1" class="p-3 mb-2 bg-light text-dark border border-dark">
         <div class="d-flex align-items-center flex-column">
             <div class=" d-flex align-items-center flex-column p-3 mb-2 bg-light text-dark border border-dark">

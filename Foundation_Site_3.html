@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Foundation</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\css\foundation.css" > 
+    <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\Foundation-Sites-6.6.3-CSS\assets\css\foundation.css">
     <link rel="stylesheet" href="Q:\Examensarbete GitHub\Examensarbete\motion-ui-starter\css\motion-ui.css" />
 
     <style>
@@ -19,68 +19,6 @@
             box-sizing: border-box
         }
 
-        .slideshow-container {
-            max-width: 1000px;
-            position: relative;
-            margin: auto;
-        }
-
-        .mySlides {
-            display: none;
-        }
-
-        .prev,
-        .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            margin-top: -22px;
-            padding: 16px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-        }
-
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
-
-        .prev:hover,
-        .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        .text {
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
-
-        .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
-
-        .active,
-        .dot:hover {
-            background-color: #717171;
-        }
-
         .panel {
             display: flex;
             flex-direction: column;
@@ -89,60 +27,45 @@
             height: 200px;
             border: 1px solid;
         }
+
+        .button {
+            margin: 0;
+            padding: 1;
+        }
     </style>
 </head>
 
 <body style="background-color: lightskyblue;">
-    <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="#">Logo</a></h1>
-            </li>
-        </ul>
-        <section class="top-bar-section">
-            <ul class="dropdown menu">
-                <li><a href="#">Nav 1</a></li>
-                <li><a href="#">Nav 2</a></li>
-                <li><a href="#">Nav 3</a></li>
-                <li><a href="#">Nav 4</a></li>
-            </ul>
-        </section>
-    </nav>
     <div class="panel">
         <h1>Visualisering av väderdata</h5>
             <p>Med hjälp av Foundation</p>
     </div>
-    <div class="slideshow-container">
-        <div class="mySlides">
-            <img src="thunderstorm.jpg" style="width:100%">
-            <div class="text">
-                <h5>Thunderstorm av Felix Mittermeier</h5>
-                <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
+
+    <form>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="medium-6 cell">
+                    <label>Email:
+                        <input type="email" placeholder="">
+                    </label>
+                </div>
+                <div class="medium-6 cell">
+                    <label>Lösenord:
+                        <input type="password" placeholder="">
+                    </label>
+                </div>
+                <div class="medium-6 cell">
+                    <label>Namn:
+                        <input type="text" placeholder="">
+                    </label>
+                </div>
+                <fieldset class="large-7 cell">
+                    <input id="checkbox1" type="checkbox"><label for="checkbox1">Kom ihåg den här enheten</label>
+                </fieldset>
+                <label for="submit" class="button">Logga in</label>
             </div>
         </div>
-        <div class="mySlides">
-            <img src="rain_city.jpg" style="width:100%">
-            <div class="text">
-                <h5>Rain av WolfBlur</h5>
-                <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-            </div>
-        </div>
-        <div class="mySlides">
-            <img src="ocean.jpg" style="width:100%">
-            <div class="text">
-                <h5>Ocean av Pexels</h5>
-                <p>Använd under <a href="https://pixabay.com/sv/service/license/">Pixabay License</a></p>
-            </div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+    </form>
     <div class="grid-x margin-x">
         <div class="cell auto">
             <div style="border: 1px solid; background-color: white;">
@@ -1159,4 +1082,6 @@
             dots[slideIndex - 1].className += " active";
         }
     </script>
-</body></html>
+</body>
+
+</html>
